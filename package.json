@@ -42,7 +42,8 @@
   },
   "dependencies": {
     "@spacebartech/on": "^1.0.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "swiper": "^4.3.3"
   },
   "directories": {
     "test": "test"
