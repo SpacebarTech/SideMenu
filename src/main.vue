@@ -1,14 +1,14 @@
 <template lang='pug'>
-.side-menu.swiper-container(ref='swiper' :class='[state, side]')
-	.swiper-wrapper
-		.swiper-slide(:class='{ empty : side === "right" }')
-			.click-outside-catcher(v-if='side === "left"' @click='close')
-			.main(v-if='side === "left"')
-				slot(v-if='side === "left"' name='content')
-		.swiper-slide(:class='{ empty : side === "left" }')
-			.click-outside-catcher(v-if='side === "right"' @click='close')
-			.main(v-if='side === "right"')
-				slot(v-if='side === "right"' name='content')
+  .side-menu.swiper-container(ref='swiper' :class='[state, side]')
+    .swiper-wrapper
+      .swiper-slide(:class='{ empty : side === "right" }')
+        .click-outside-catcher(v-if='side === "left"' @click='close')
+        .main(v-if='side === "left"')
+          slot(v-if='side === "left"' name='content')
+      .swiper-slide(:class='{ empty : side === "left" }')
+        .click-outside-catcher(v-if='side === "right"' @click='close')
+        .main(v-if='side === "right"')
+          slot(v-if='side === "right"' name='content')
 </template>
 
 <script>
