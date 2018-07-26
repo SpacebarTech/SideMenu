@@ -20,7 +20,7 @@ Do this on github, or send Tim a request to have it done.
 
 #### 5. Add your repository to your project
 
-``` git remote add origin https://github.com/SpacebarTech/[YOUR_PROJECT].git ```
+``` git remote add origin https://github.com/SpacebarTech/SideMenu.git ```
 
 #### 6. Update your package.json so that all fields are filled out correctly
 
@@ -55,14 +55,14 @@ Do not make a new travis.yml file\
   1. Delete instructions
   2. use template below
 
-[NAME OF MODULE]
+SideMenu
 ========
 
-[DESCRIPTION]
+SideMenu Component
 
 ## Installation
 
-  `npm install @spacebartech/[NAME OF MODULE]`
+  `npm install @spacebartech/sidemenu`
 
 ## Usage
 
