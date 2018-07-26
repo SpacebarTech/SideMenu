@@ -1,4 +1,3 @@
-# The Spacebar Node Module Template
 
 To start your new project, follow these steps
 
@@ -56,9 +55,6 @@ Do not make a new travis.yml file\
   2. use template below
 
 SideMenu
-========
-
-SideMenu Component
 
 ## Installation
 

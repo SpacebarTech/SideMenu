@@ -25,7 +25,7 @@
 			state : {
 				required  : true,
 				type      : String,
-				validator : value => ['open', 'closed'].indexOf( value ) !== 0,
+				validator : value => ['open', 'closed'].indexOf( value ) !== -1,
 			}
 		},
 
