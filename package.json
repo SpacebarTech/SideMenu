@@ -2,7 +2,7 @@
   "name": "@spacebartech/sidemenu",
   "version": "0.0.0-development",
   "description": "Side Menu Component",
-  "main": "dist/sidemenu.js",
+  "main": "dist/index.js",
   "files": [
     "dist/"
   ],
@@ -55,8 +55,10 @@
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
+    "@spacebartech/on": "^1.0.4",
     "path": "^0.12.7",
     "pug": "^2.0.3",
+    "swiper": "^4.3.5",
     "vue": "^2.5.17"
   },
   "directories": {
