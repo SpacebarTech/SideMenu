@@ -3,6 +3,9 @@
   "version": "0.0.0-development",
   "description": "Side Menu Component",
   "main": "dist/sidemenu.js",
+  "files": [
+    "dist/"
+  ],
   "scripts": {
     "test": "mocha --require babel-core/register --colors ./test/test.js",
     "build": "webpack",
