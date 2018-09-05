@@ -14,6 +14,7 @@
 <script>
 	import Swiper from 'swiper';
 	import On from '@spacebartech/on';
+  import 'swiper/dist/css/swiper.css';
 
 	export default {
 		props : {
